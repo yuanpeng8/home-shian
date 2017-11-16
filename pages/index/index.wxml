@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="../../photo/34.jpg" mode="aspectFill" background-size="cover"></image>
+       <text class="userinfo-nickname">{{userInfo.nickName}}</text> 
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto" bindtap="bindViewTap">{{motto}}</text>
+  </view>
+</view> -->
+
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="../../photo/34.jpg" mode="aspectFill" background-size="cover"></image>
+  </view>
+  <view class="image-parent">
+    <text class='image-mengceng-word'>销魂睡姿</text>
+    <image bindtap='viewDetail1' class='image-mengceng' src='../../photo/23.jpg' mode="aspectFill"></image>
+  </view>
+  <view class="image-parent">
+    <text class='image-mengceng-word'>报告！我投降</text>
+    <image bindtap='viewDetail2' class='image-mengceng' src='../../photo/16.jpg' mode="aspectFill"></image>
+  </view>
+  <view class="image-parent">
+    <text class='image-mengceng-word'>小黄帽</text>
+    <image bindtap='viewDetail3' class='image-mengceng' src='../../photo/27.jpg' mode="aspectFill"></image>
+  </view>
+</view>

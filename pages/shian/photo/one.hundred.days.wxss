@@ -1,0 +1,10 @@
+/* pages/shian/photo/one.hundred.days.wxss */
+ .imageCont{
+  font-size: 28rpx;
+  color: #666666;
+  /* border: 2rpx solid #999999; */
+  border-radius: 25rpx;
+  line-height: 44rpx;
+  margin-top: 8px;
+  padding:8px 8px;
+} 

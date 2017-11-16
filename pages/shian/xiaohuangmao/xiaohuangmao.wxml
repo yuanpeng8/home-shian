@@ -1,0 +1,14 @@
+<view class="imageCont">
+
+<view class="">
+  <text class="">小黄帽大全</text>
+</view>
+<swiper style="height:500px" indicator-dots="true">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image mode="widthFix" src="{{item}}" />
+    </swiper-item>
+  </block>
+</swiper>
+
+</view>

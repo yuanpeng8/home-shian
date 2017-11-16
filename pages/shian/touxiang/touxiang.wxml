@@ -1,0 +1,13 @@
+<view class="touxiang-imageCont">
+
+<text class="">报告大王，我要投降~</text>
+
+<swiper style="height:500px" indicator-dots="true">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image mode="widthFix" src="{{item}}" />
+    </swiper-item>
+  </block>
+</swiper>
+
+</view>

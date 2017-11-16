@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shian/photo/one.hundred.days",
+    "pages/shian/xiaohuangmao/xiaohuangmao",
+    "pages/shian/touxiang/touxiang"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "十方之地",
+    "navigationBarTextStyle":"black"
+  }
+}

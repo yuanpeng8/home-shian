@@ -1,0 +1,50 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  border: 2rpx solid #999999;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 50px;
+}
+
+.image-parent {
+  margin-top: 10px;
+  height: 300rpx;
+  position: relative;
+	overflow: hidden;
+  border-radius:5px;
+}
+.image-mengceng {
+  opacity: 0.4;
+  background: #000;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  /* width: 100%;
+  height: 100%;  */
+}
+.image-mengceng-word{
+  font-size: 30rpx;
+  color: #666666;
+  /* color: white; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
